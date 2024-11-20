@@ -15,7 +15,7 @@ const App = () => {
 
   const fetchDailyData = async (latitude, longitude, startDate, endDate) => {
     try {
-      const response = await axios.get("https://dynamic-parfait-949de7.netlify.app/weathers", {
+      const response = await axios.get("http://localhost:3000/weathers", {
         params: { latitude, longitude, start_date: startDate, end_date: endDate },
       });
       setDailyData(response.data);
@@ -39,7 +39,7 @@ const App = () => {
     }
 
     try {
-      const response = await axios.get("https://dynamic-parfait-949de7.netlify.app/hourly_weather", {
+      const response = await axios.get("http://localhost:3000/hourly_weather", {
         params: {
           latitude: location.latitude,
           longitude: location.longitude,
