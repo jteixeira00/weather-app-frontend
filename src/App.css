@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+/* Container for Back button aligned to the left below the carousel */
+.back-button-container-left {
+  display: flex;
+  justify-content: flex-start; /* Align the button to the left */
+  margin-top: 20px; /* Add spacing between the carousel and the button */
+  margin: 0 auto; /* Center the container horizontally */
+  margin-left: 150px;
+  padding: 20px; /* Add padding around the container */
+ 
+  position: relative; /* Ensure proper positioning for child elements */
+}
+
+
+.back-to-daily-button {
+  padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+}
+
+.back-to-daily-button:hover {
+  background: linear-gradient(135deg, #2980b9, #1c6693); /* Darker blue on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+.back-to-daily-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.5); /* Focus ring */
+}
+

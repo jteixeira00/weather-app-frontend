@@ -1,0 +1,163 @@
+
+  .weather-card-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .weather-card-left {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .weather-card-left .weather-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .weather-description {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .weather-card-right {
+    flex: 1;
+    text-align: right;
+    font-size: 1rem;
+  }
+  
+  .weather-card-right p {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .weather-icon-small {
+    margin-right: 8px;
+    color: #666;
+  }
+  
+  .temp-high {
+    color: #e74c3c;
+    font-weight: bold;
+  }
+  
+  .temp-low {
+    color: #3498db;
+    font-weight: bold;
+  }
+  
+  .weather-card-footer {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .weather-card-footer p {
+    margin: 5px 0;
+  }
+  
+  .slick-dots li button:before {
+    color: #333;
+    font-size: 12px;
+  }
+  
+  .slick-arrow {
+    color: #333;
+    z-index: 1;
+  }
+  
+  .slick-arrow:hover {
+    color: #3498db;
+  }
+
+
+  .slick-slider {
+    overflow: hidden; /* Prevent overflow */
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .slick-track {
+    display: flex !important;
+    align-items: center;
+    gap: 0;
+  }
+  
+  .slick-slide {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 0;
+  }
+  
+  
+
+  .weather-card {
+    flex: 0 0 auto;
+    width: 250px;
+    margin: 0 5px;
+    padding: 15px; 
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    height: 350px;
+  }
+  
+  .weather-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  .weather-card-header {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .weather-card-date {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .slick-dots {
+    margin-top: 10px;
+    position: relative;
+    bottom: 0; 
+  }
+  
+  .slick-dots li {
+    margin: 0 5px;
+  }
+
+  
+  .slick-dots li.slick-active button:before {
+    color: #3498db;
+  }
+  
+  .weather-carousel-container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+  }
+  
+  
+  .weather-carousel-container .slick-slider {
+    padding: 10px 0;
+  }
+
