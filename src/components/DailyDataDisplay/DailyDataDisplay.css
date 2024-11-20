@@ -1,0 +1,75 @@
+.daily-data-container {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 1200px;
+    position: relative;
+  }
+  
+  .toggle-buttons-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .toggle-button {
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .toggle-button.active {
+    background-color: #3498db;
+    color: #ffffff;
+  }
+  
+  .toggle-button:hover {
+    background-color: #2980b9;
+    color: #ffffff;
+  }
+  
+  .daily-data-content {
+    text-align: center;
+    margin-top: 60px; /* Ensure space for the toggle buttons */
+  }
+  
+  .daily-data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .daily-data-table th,
+  .daily-data-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .daily-data-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .daily-data-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .daily-data-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
